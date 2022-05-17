@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        table,th,td{
+            border-spacing: 0px;
+            border: 1px solid black;
+        }
+        .time{
+            background-color: #6c8fe0;
+        }
+        .yoga{
+            background-color: #84cee7;
+        }
+        .coach{
+            background-color: #fada48;
+        }
+        .type{
+            background-color: #89ccdf;
+        }
+        .english{
+            background-color: #f88071;
+        }
+        .pro{
+            background-color: #926fd4;
+        }
+        .lt{
+            background-color: #53cc36;
+        }
+        .tech{
+            background-color: #d8a43e;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Uki - Time Table</h1>
+    <table>
+        <tr style="background-color: #228df8;">
+            <th>Time Slot</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td class="time">9 - 9.30</td>
+            <td class="yoga">Yoga and Meditation</td>
+            <td class="coach">Personal Coaching 9.15 to 11.15</td>
+            <td class="yoga">Yoga and Meditation</td>
+            <td class="yoga">Yoga and Meditation</td>
+            <td class="coach">Personal Coaching 9.15 to 11.15</td>
+        </tr>
+        <tr>
+            <td class="time">9.30 - 10</td>
+            <td class="type">Touchtyping and Blogging</td>
+            <td class="coach">Personal Coaching</td>
+            <td rowspan="2" class="english">English - Elementary</td>
+            <td rowspan="2" class="english">English - Elementary</td>
+            <td class="coach">Personal Coaching</td>
+        </tr>
+        <tr>
+            <td class="time">10 - 12</td>
+            <td class="pro">Programming Theory</td>
+            <td class="type">Personal Coaching / Touchtyping and Blogging</td>
+            <td class="type">Personal Coaching / Touchtyping and Blogging</td>
+        </tr>
+        <tr>
+            <td class="time">12 - 1</td>
+            <th colspan="5" class="lt">Lunch Break - Carom, Badminton</th>
+        </tr>
+        <tr>
+            <td class="time">1 - 2</td>
+            <td  class="pro">Programming Practice</td>
+            <td  class="pro">Programming Practice</td>
+            <td  class="pro">Programming Practice</td>
+            <td  class="pro">Programming Practice</td>
+            <td  class="pro">Programming Practice</td>
+        </tr>
+        <tr>
+            <td class="time">2 -4</td>
+            <td class="pro">Programming Practice Project</td>
+            <td class="pro">Programming Practice Project</td>
+            <td class="pro">Programming Practice Project</td>
+            <td class="pro">Programming Practice Project</td>
+            <td class="pro">Programming Practice Project</td>
+        </tr>
+        <tr>
+            <td class="time">4 - 4.15</td>
+            <th colspan="5" class="lt">Tea Break</th>
+        </tr>
+        <tr>
+            <td class="time">4.15 - 5</td>
+            <td class="tech">Tech Talk</td>
+            <td class="tech">TED EX Video Screening</td>
+            <td class="tech">Team Building</td>
+            <td class="tech">Team outing / Tech Movie</td>
+            <td style="background-color: #f6424c;">Toestmasters Gavel Club</td>
+        </tr>
+    </table>
+</body>
+</html>
